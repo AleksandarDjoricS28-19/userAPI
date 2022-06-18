@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: host
+spec:
+  containers:
+  - name: andrejarsic
+    image: andrejarsic1
+    ports:
+    - containerPort: 8081
+
+
+

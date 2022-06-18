@@ -1,0 +1,6 @@
+FROM python
+WORKDIR /app
+COPY . /app
+EXPOSE 49153
+
+CMD python script.py

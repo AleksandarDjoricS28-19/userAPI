@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: post
+spec:
+      containers:
+        name: andrejarsic
+      - image: andrejarsic2
+        ports:
+        - containerPort: 49153
