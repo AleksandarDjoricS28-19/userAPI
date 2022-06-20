@@ -4,10 +4,10 @@ metadata:
   name: host
 spec:
   containers:
-  - name: andrejarsic
-    image: andrejarsic1
+  - name: adjoric
+    image: adjoric1
     ports:
-    - containerPort: 8081
+    - containerPort: 8300
 
 
 
